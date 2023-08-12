@@ -1,0 +1,95 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #8B7B7B;
+/*	border: 1px solid #66CE66;*/
+	font-family: sans-serif;
+}body{
+	width: 100%;
+	display: flex;
+
+	
+	margin-top: 10%;
+}.container{
+ 	display: flex;
+	width: 25rem;
+	background-color: #545454;
+	padding: .5rem 1rem;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 8px black;	
+	flex-direction: column;	
+	gap: 10px;
+	height:30rem;
+	margin: auto;
+	
+}#head_title{
+	text-align: center;
+	background: none;
+}.input_control{
+	display: flex;
+	background: none;
+}input{
+	border-radius: 10px;
+	background-color: white;
+}.input{
+	display: flex;
+	width: 100%;
+	padding: 0 15px;
+	height: 4rem;
+	font-size: 3rem;
+	text-align: right;
+	border: none;
+}.input:focus{
+	outline: none;
+}.buttons{
+	background: none;
+	display: flex;
+	gap: .5em;
+	height: 3.5rem;
+}input[type="button"]{
+	width: 100%;
+	font-size: 2.5rem;
+	border: none;
+}input[type="button"]:active{
+	outline:5px solid #2D86E1;
+	outline-offset: -5px;
+	background-color: #ACACAC;
+}#button_control{
+	display: flex;
+}.button_container1{
+	background: none;
+	width: 31%;
+	height: 11.5rem;
+}.button_container1 input{
+	height: 100%;
+}.button_container2 span{
+	background: none;
+	gap: .5em;
+	display: flex;
+}.button_container2{
+	background: none;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: .5em;
+}.button_container2 input{
+	height: 3.5rem;
+}#footer_title{
+	margin-top: 9rem;
+	background: none;
+	text-align: center;
+	animation:jeo 3s infinite;
+	font-size: 15px;
+}@keyframes jeo{
+	25%{color: red}
+	50%{color: green;}
+	75%{color: blue}
+	100%{color: white}
+}h3{
+	color: white;
+	text-shadow:0px 3px 0px black;
+}
+
+

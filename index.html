@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+	<title>Calculator</title>
+</head>
+
+<body>
+
+	<div class="container">
+
+	<h3 id="head_title">My simple calculator</h3>
+
+	<div class="input_control">
+	<input class="input" id="result" placeholder="...">
+	</div>
+
+
+	<div class="buttons">
+		<input title="devide" type="button" class="" id="" value="/" onclick="dis('/')"  onkeydown="myFunction(event)">
+		<input type="button" class="" id="" value="*" onclick="dis('*')"  onkeydown="myFunction(event)">
+		<input type="button" class="" id="" value="c" onclick="clr()">
+		<input type="button" class="" id="" value="&#9003;" onclick="onPressBackspace()">
+	</div>
+
+	<div class="buttons">
+		<input type="button" class="" id="" value="-" onclick="dis('-')"  onkeydown="myFunction(event)">
+		<input type="button" class="" id="" value="7" onclick="dis('7')"  onkeydown="myFunction(event)">
+		<input type="button" class="" id="" value="8" onclick="dis('8')"  onkeydown="myFunction(event)">
+		<input type="button" class="" id="" value="9" onclick="dis('9')"  onkeydown="myFunction(event)" >
+	</div>
+
+	
+	<div class="buttons" id="button_control">
+		<div class="button_container1">
+			<input type="button" class="" id="" value="+" onclick="dis('+')"  onkeydown="myFunction(event)">
+		</div>
+
+		<div  class="button_container2">
+			<span>
+			<input type="button" class="" id="" value="4" onclick="dis('4')"  onkeydown="myFunction(event)">
+			<input type="button" class="" id="" value="5" onclick="dis('5')"  onkeydown="myFunction(event)">
+			<input type="button" class="" id="" value="6" onclick="dis('6')"  onkeydown="myFunction(event)">
+			</span>
+
+			<span>
+			<input type="button" class="" id="" value="1" onclick="dis('1')"  onkeydown="myFunction(event)">
+			<input type="button" class="" id="" value="2" onclick="dis('2')"  onkeydown="myFunction(event)">
+			<input type="button" class="" id="" value="3" onclick="dis('3')"  onkeydown="myFunction(event)">
+			</span>
+
+			<span>
+			<input type="button" class="" id="" value="0" onclick="dis('0')"  onkeydown="myFunction(event)">
+			<input type="button" class="" id="" value="." onclick="dis('.')"  onkeydown="myFunction(event)">
+			<input type="button" class="" id="" value="=" onclick="solve()">
+			</span>
+
+		</div>
+	</div>
+
+	<h3 id="footer_title">By : Jeo :D</h3>
+
+
+	</div>
+	<!-- container -->
+
+</body>
+</html>
